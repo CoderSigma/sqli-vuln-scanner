@@ -1,6 +1,19 @@
-# sqli-vuln-scanner
+<h1 align="center">
+  <br>
+  Yet another lightweight tool to test an SQL Injection Vulnerability.
+  <br>
+</h1>
 
-to use the tool
+#### Installation and Usage:
 
-<h3>$ python vuln.py -u/--url "site.com/asd.php?id=8{fuzz}" -p/--payloads payloadko.txt</h3><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<marquee>this is my first tool on python</marquee>
+Copy-paste this into your terminal:
+
+```
+git clone https://github.com/CoderSigma/sqli-vuln-scanner.git
+```
+```
+cd sqli-vuln-scanner
+```
+```
+python vuln.py -u/--url "site.com/asd.php?id=8{fuzz}" -p/--payloads payloadko.txt
+```
