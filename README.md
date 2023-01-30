@@ -15,5 +15,22 @@ git clone https://github.com/CoderSigma/sqli-vuln-scanner.git
 cd sqli-vuln-scanner
 ```
 ```
-python vuln.py -u/--url "site.com/asd.php?id=8{fuzz}" -p/--payloads payloadko.txt
+python3 vuln.py -h
+```
+
+#### Usage
+```
+usage: vuln.py [-h] -u URL -p PAYLOADS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     url
+  -p PAYLOADS, --payloads PAYLOADS
+                        payloads list
+```
+
+#### Example Usage
+```
+
+python3 vuln.py -u https://site.com/index.php?id=1{fuzz} -p payload.txt
 ```
